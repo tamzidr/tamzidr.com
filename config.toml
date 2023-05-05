@@ -1,3 +1,4 @@
-baseURL = '/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "/"
+languageCode = "en-us"
+title = "Tamzid Rahman"
+defaultContentLanguage = "en"

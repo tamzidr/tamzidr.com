@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ .Title }}</title>
+    <link rel="stylesheet" href="/css/blog.css">
+    {{ partial "head.html" . }}
+  </head>
+  <body>
+    <header>
+      {{ partial "header.html" . }}
+    </header>
+    <main>
+      <h1>Recent Posts</h1>
+      <ul>
+        {{ range first 5 .Site.RegularPages.ByDate.Reverse }}
+          {{ if eq .Section "posts" }}
+            <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+          {{ end }}
+        {{ end }}
+        </ul>        
+    </main>
+    <footer>
+      {{ partial "footer.html" . }}
+    </footer>
+  </body>
+</html>
