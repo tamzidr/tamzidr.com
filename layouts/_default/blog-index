@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>{{ .Title }}</title>
-    <link rel="stylesheet" href="/css/blog.css">
+    <link rel="stylesheet" href="{{ "/css/blog.css" | relURL }}">
     {{ partial "head.html" . }}
   </head>
   <body>

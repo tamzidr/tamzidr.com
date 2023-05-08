@@ -1,4 +1,4 @@
 ---
-title: "Contact Me"
-layout: staticpage
+title: "Blog"
+layout: blog-index
 ---

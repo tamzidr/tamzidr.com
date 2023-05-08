@@ -2,19 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://tamzidr.com/posts/hello-world/</loc>
+    <loc>/posts/hello-world/</loc>
     <lastmod>2023-05-05T18:57:01+02:00</lastmod>
   </url><url>
-    <loc>https://tamzidr.com/posts/</loc>
+    <loc>/posts/</loc>
     <lastmod>2023-05-05T18:57:01+02:00</lastmod>
   </url><url>
-    <loc>https://tamzidr.com/</loc>
+    <loc>/</loc>
     <lastmod>2023-05-05T18:57:01+02:00</lastmod>
   </url><url>
-    <loc>https://tamzidr.com/categories/</loc>
+    <loc>/categories/</loc>
   </url><url>
-    <loc>https://tamzidr.com/blog/</loc>
+    <loc>/blog/</loc>
   </url><url>
-    <loc>https://tamzidr.com/tags/</loc>
+    <loc>/tags/</loc>
   </url>
 </urlset>

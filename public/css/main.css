@@ -1,12 +1,12 @@
 /* Everything */
 html, body {
   height: 100%;
-  background-color: #FCF5DB;
-  font-family: 'Open Sans';
+  background-color: #21262E;
   font-weight: 400;
-  color: #303030;
+  color: #FFFFE8;
   margin: 0;
   padding: 0;
+  font-family: 'Open Sans';
 }
 
 /* Header stuffs */
@@ -27,9 +27,16 @@ nav {
   width: 100%;
 }
 
+nav > * {
+  width: 100%;
+  text-decoration: none;
+  color: #FFFFE8;
+  font-family: Work Sans;
+}
+
 li a {
   text-decoration: none;
-  color: #303030;
+  color: #FFFFE8;
 }
 
 ul {
@@ -50,21 +57,28 @@ main {
   font-size: clamp(2rem, 2vw , 2.4vw);
   font-weight: 400;
   display: flex;
+  font-family: 'Open Sans';
 }
  
 footer {
   display: flex;
   flex-direction: column;
-  background: #303030;
   width: auto;
   padding-left: 25vw;
   padding-right: 25vw;
   padding-bottom: 1.5vw;
   padding-top: 1.0vw;
+}
 
+footer > * {
+  font-family: Work Sans;
 }
 
 footer div {
   flex-direction: row;
   display: flex;
+}
+
+b, strong {
+  font-weight: 600;
 }
