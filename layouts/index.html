@@ -1,78 +1,47 @@
 <!DOCTYPE html>
-<html>
-<head>
-    {{ partial "head.html" . }}
-    <link rel="stylesheet" href="{{ "/css/index.css" | relURL }}">
-    <title>Tamzid's Home</title>
-</head>
-<body>
-<section>
-    <div class="max-vh">
-        <header> {{ partial "header.html" . }} </header>
-            <div class="feed">
-                <div class="main-feed">
-                    {{ range first 1 .Site.RegularPages.ByDate.Reverse }}
-                    <div class="feed-item">
-                        {{ with .Params.banner }}
-                        <div class="banner" style="background-image: url('{{ . | absURL }}')"></div>
-                        {{ end }}
-                        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-                        <div class="post-meta">
-                            <p>{{ .ReadingTime }} min</p>
-                            <p>
-                                {{ range .Params.tags }}
-                                <span class="tag">{{ . }}</span>
-                                {{ end }}
-                            </p>
-                        </div>
-                        <p>{{ .Summary }}</p>
-                    </div>
-                    {{ end }}
-                </div>
+<html lang="en">
 
-                <div class="sub-feed">
-                    {{ range after 1 (first 4 .Site.RegularPages.ByDate.Reverse) }}
-                    <div class="feed-item">
-                        {{ with .Params.banner }}
-                        <div class="banner" style="background-image: url('{{ . | absURL }}')"></div>
-                        {{ end }}
-                        <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
-                        <div class="post-meta">
-                            <p>{{ .ReadingTime }} min</p>
-                            <p>
-                                {{ range .Params.tags }}
-                                <span class="tag">{{ . }}</span>
-                                {{ end }}
-                            </p>
-                        </div>
-                        <p>{{ .Summary }}</p>
-                    </div>
-                    {{ end }}
-                </div>
-            </div>
-        </section>
-    </div>
-<section class="max-vh">
-    <article>
-        <h2 class="h2_vocal">Lorem ipsum dolor sit amet consectetur. Amet faucibus at nec ut nisl pulvinar a.
-            Habitasse lectus sed ultrices amet et dignissim aliquam at vestibulum. Mauris volutpat sit diam aliquam
-            consectetur at tristique ullamcorper. Aliquet vel eu suspendisse malesuada iaculis magna interdum hendrerit
-            scelerisque. Sit dignissim convallis blandit gravida id. Felis magna cras aliquet nibh. Mi in ullamcorper
-            posuere blandit mauris ullamcorper nibh.</h2>
-    </article>
-    <div id="contact-card">
-        <img src="{{ "images/tamzid_garden.png" | relURL }}" alt="Tamzid's Garden">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Home</title>
+  {{ partial "head.html" . }}
+  <link rel="icon" href="./favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+  
+  <section class="max-vh">
+    <header>
+      {{ partial "header.html" . }}
+    </header>
+    <div class="landing">
+      <h2 class="vocal">
+        <span class="description">Profile</span> Lorem ipsum dolor sit amet consectetur. Amet faucibus at nec ut nisl
+        pulvinar a. Habitasse lectus sed ultrices amet et dignissim aliquam at vestibulum. Mauris volutpat sit diam
+        aliquam consectetur at tristique ullamcorper. Aliquet vel eu suspendisse malesuada iaculis magna interdum
+        hendrerit scelerisque. Sit dignissim convallis blandit gravida id. Felis magna cras aliquet nibh. Mi in
+        ullamcorper posuere blandit mauris ullamcorper nibh.
+      </h2>
+      <div id="contact-card">
+        <img src="{{ "images/tamzid_garden.png" | relURL }}" alt="Tamzid's Garden"> 
         <div id="contact-info">
-            <p style="font-weight: 600; text-decoration: underline; margin-bottom: 0.5em;">Contact</p>
-            <div class="contact-card__grid">
-                <div class="grid-item"><b>Email:</b></div>
-                <div class="grid-item">tamzidr26@gmail.com</div>
-            </div>
+          <p class="contact-heading">Contact</p>
+          <div class="contact-card__grid">
+            <div class="grid-item"><b>Email:</b></div>
+            <div class="grid-item">tamzidr26@gmail.com</div>
+          </div>
         </div>
+      </div>
     </div>
-</section>
-<footer>
+  </section>
+
+  <footer>
     {{ partial "footer.html" . }}
-</footer>
+  </footer>
+  
+  <script src="index.js"></script>
 </body>
+
 </html>

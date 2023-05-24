@@ -1,4 +1,2 @@
-<meta charset="utf-8">
-<meta name="description" content="Page Description">
-<link rel="stylesheet" href="{{ "/css/main.css" | relURL }}">
-
+{{ $style := resources.Get "scss/styles.scss" | resources.ExecuteAsTemplate "styles.scss" . | toCSS | fingerprint }}
+<link rel="stylesheet" href="{{ $style.Permalink }}">

@@ -1,0 +1,5 @@
+[build]
+  # Sass configuration
+  [build.sass]
+    enable = true
+    outputStyle = "compressed" # Set to "nested", "expanded", or "compressed"
