@@ -6,16 +6,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Home</title>
+  <title>home</title>
   
-<link rel="stylesheet" href="/styles.22a4b0dcc74fc51860020fbdf70961ae54122e1f0da40f439124a2fe7c9f287e.css">
+<link rel="stylesheet" href="/styles.d7e6ba00a7648f8934120c5fbfdc7b120caf5a1a8d2c441552fdb5dc24c3f20a.css">
+<script src="/js/index.js"></script>
+
 
   <link rel="icon" href="./favicon.ico" type="image/x-icon">
 </head>
 
 <body>
   
-  <section class="max-vh">
+  <section class="max-vh margin" style="padding-top: 8px;">
     <header>
       <nav>
     <div class="menu">
@@ -33,38 +35,59 @@
 </nav>
 
     </header>
-    <div class="landing">
-      <h2 class="vocal">
-        <span class="description">Profile</span> Lorem ipsum dolor sit amet consectetur. Amet faucibus at nec ut nisl
-        pulvinar a. Habitasse lectus sed ultrices amet et dignissim aliquam at vestibulum. Mauris volutpat sit diam
-        aliquam consectetur at tristique ullamcorper. Aliquet vel eu suspendisse malesuada iaculis magna interdum
-        hendrerit scelerisque. Sit dignissim convallis blandit gravida id. Felis magna cras aliquet nibh. Mi in
-        ullamcorper posuere blandit mauris ullamcorper nibh.
+    <div class="landing content-wrapper">
+      <h2>
+        <span style="padding:0; margin-right: 12.5%;">Profile</span> <span style="font-size: 3rem;">Hello —</span> 
+        <span  style="font-size: 2rem;"> I’m Tamzid. I’m an UI/UX Designer, Writer and Youtuber. </span>
+        <span>On this site we explore the strategies and tools that help us live happier, healthier, more productive lives.
+          And over at Sunday Snippets - my weekly newsletter - I share actionable productivity tips and practical life advice. Sign up below to join a growing community of more than 300,000 friendly readers.</span>
       </h2>
+      
+      <div id="substack-embed"></div>
+      <script src="https://substackapi.com/widget.js" async></script>
+
       <div id="contact-card">
         <img src="/images/tamzid_garden.png" alt="Tamzid's Garden"> 
-        <div id="contact-info">
-          <p class="contact-heading">Contact</p>
-          <div class="contact-card__grid">
+        <div>
+          <p style="  font-weight: 600;text-decoration: underline;margin: 0;margin-bottom: 1rem;">Contact</p>
+          <div>
             <div class="grid-item"><b>Email:</b></div>
             <div class="grid-item">tamzidr26@gmail.com</div>
+            <div class="grid-item"><b>Hobbies:</b></div>
+            <div class="grid-item">Walking and thinking, reading, listening to audiobooks/music/podcasts, journaling,</div>
           </div>
         </div>
       </div>
     </div>
   </section>
-
-  <footer>
-    <div>
-    <p style="color: #383838;">&copy; Tamzid Rahman. All Rights reserved.</p>
+  <section class="half-vh brand-section">
+    <div style="display: flex; flex-direction:row;" class="content-wrapper"> 
+      <div >
+        <h2 class="vocal">
+          Join my email newsletter!
+        </h2>
+        <ul>
+          <li>Coffee</li>
+          <li>Tea</li>
+          <li>Milk</li>
+          <li>Banana</li>
+        </ul> 
+      </div>
+        <img style="width: 20vw; object-fit:cover" src="https://images.unsplash.com/photo-1617785899222-fe06b15b6dd5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80">
+    </div>
+  </section>
+  
+  <footer class="accent-section" style="margin-top: 0;">
+    <div class="content-wrapper">
+      <div>
+    <p style="color: #ebebeb;">&copy; Tamzid Rahman. All Rights reserved.</p>
 </div>
 <ul>
-    <li><a style="color: #383838;" href="#">Privacy Policy</a></li>
-    <li><a style="color: #383838;" href="#">Terms of Use</a></li>
+    <li><a style="color: #f0f0f0;" href="#">Privacy Policy</a></li>
+    <li><a style="color: #f3f3f3;" href="#">Terms of Use</a></li>
 </ul>
+    </div>
   </footer>
-  
-  <script src="index.js"></script>
-</body>
+  </body>
 
 </html>

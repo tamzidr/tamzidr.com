@@ -1,33 +1,43 @@
 // Variables
-$text-color: #383838;
 $main-font: 'Open Sans';
 $breakpoint-s: 576px;
 $breakpoint-m: 768px;
 $breakpoint-xl: 1200px;
 
+// Colors
+  // Light mode
+
+$brand-color: #2C3639;
+$brand-color-text: white;
+
+$accent-color: #3F4E4F;
+$accent-color-text: white;
+
+$background-color: #FFFFFF;
+$background-text-color: #383838;
+
+$surface-color: white;
+$surface-color-text: black;
+
+$error-color: red;
+$error-color-text: black;
+
 // General Styles
 body {
   height: 100%;
-  background-color: #ffffff;
+  background-color: $background-color;
   font-weight: 400;
-  color: $text-color;
+  color: $background-text-color;
   padding: 0;
+  margin: 0;
   font-family: $main-font, sans-serif;
   display: flex;
   flex-direction: column;
+}
 
-  // Margin for small screens (up to 576px)
-  margin: 0 6.25;
-
-  @media (min-width: $breakpoint-s) {
-    // Margin for medium screens (from 577px to 768px)
-    margin: 0 12.5vw;
-  }
-
-  @media (min-width: $breakpoint-m) {
-    // Margin for extra-large screens (from 1024px and above)
-    margin: 0 clamp(12.5vw, 960px, 25vw);
-  }
+h2 {
+  font-family: $main-font;
+  font-weight: 400;
 }
 
 // Header Styles
@@ -49,7 +59,7 @@ nav {
   .menu > * {
     width: 100%;
     text-decoration: none;
-    color: $text-color;
+    color: $background-text-color;
     font-family: 'Work Sans', sans-serif;
   }
 
@@ -71,7 +81,7 @@ nav {
 
   li a {
     text-decoration: none;
-    color: $text-color;
+    color: $background-text-color;
   }
 
   ul {
@@ -91,6 +101,7 @@ footer {
 
   > * {
     font-family: 'Work Sans', sans-serif;
+    color:#ffffff;
   }
 
   div {
@@ -123,7 +134,7 @@ footer {
       align-self: flex-end;
     }
 
-    #contact-info {
+    > div {
       display: flex;
       flex-direction: column;
       width: 100%;
@@ -131,34 +142,46 @@ footer {
       align-items: flex-start;
       height: min-content;
       flex-wrap: wrap;
-    }
 
-    .contact-card__grid {
-      width: 100%;
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: repeat(3, 1fr);
-      grid-column-gap: 30px;
+      > div {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 30px;
+        height: fit-content;
+      }
     }
   }
 }
 
+.brand-section {
+  background-color: $brand-color;
+  * {
+    color: $brand-color-text;
+  }
+
+  .content-wrapper > * {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+}
+
+.accent-section {
+  background-color: $accent-color;
+
+  * {
+    color: $brand-color-text;
+  }
+
+  .content-wrapper > * {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
 // Custom Styles
-.description {
-  font-weight: 500;
-  font-size: 0.6em;
-  margin-right: 12.5%;
-}
-
-.vocal {
-  font-family: $main-font;
-  font-weight: 500;
-  font-size: clamp( 1.5rem ,1.5vw, 3rem);
-  margin: 0;
-  height: auto;
-  overflow: auto;
-}
-
 .max-vh {
   height: 100vh;
   display: flex;
@@ -171,9 +194,26 @@ footer {
 
 }
 
-.contact-heading {
-  font-weight: 600;
-  text-decoration: underline;
-  margin: 0;
-  margin-bottom: 1rem;
+.half-vh {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+
+  @media (max-width: $breakpoint-s) {
+    height: auto;
+  }
+
 }
+
+.margin {
+  margin: 0 auto;
+}
+
+.content-wrapper {
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 3vmax 3vw;
+    height: 100%;
+    
+    }
