@@ -1,17 +1,20 @@
 body {
   height: 100%;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   font-weight: 400;
-  color: #383838;
+  color: #000000;
   padding: 0;
   margin: 0;
   font-family: "Open Sans", sans-serif;
   display: flex;
   flex-direction: column; }
 
+h2, li, p {
+  font-family: "Open Sans"; }
+
 h2 {
-  font-family: "Open Sans";
-  font-weight: 400; }
+  font-weight: 600;
+  font-size: 2rem; }
 
 header {
   height: 20%; }
@@ -26,8 +29,8 @@ nav {
   nav .menu > * {
     width: 100%;
     text-decoration: none;
-    color: #383838;
-    font-family: 'Work Sans', sans-serif; }
+    color: #000000;
+    font-family: 'Work Sans', sans-serif !important; }
   nav > * {
     width: 100%; }
   nav .divider {
@@ -40,7 +43,7 @@ nav {
     width: 100%; }
   nav li a {
     text-decoration: none;
-    color: #383838; }
+    color: #000000; }
   nav ul {
     list-style-type: none;
     margin: 0;
@@ -52,7 +55,7 @@ footer {
   width: auto;
   padding-bottom: 1.5vw;
   margin-top: 16px; }
-  footer > * {
+  footer * {
     font-family: 'Work Sans', sans-serif;
     color: #ffffff; }
   footer div {
@@ -91,25 +94,29 @@ footer {
         width: 100%;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(3, 1fr);
+        grid-template-rows: repeat(auto);
         grid-column-gap: 30px;
-        height: fit-content; }
+        height: fit-content;
+        overflow-wrap: break-word; }
+        .landing #contact-card > div > div .grid-item {
+          overflow: hidden;
+          margin: 0.2rem;
+          margin-left: 0; }
 
-.brand-section {
-  background-color: #2C3639; }
-  .brand-section * {
-    color: white; }
-  .brand-section .content-wrapper > * {
-    padding-left: 16px;
-    padding-right: 16px; }
+.primary-section {
+  background-color: #2c493a; }
+  .primary-section * {
+    color: #e6efd0; }
 
-.accent-section {
-  background-color: #3F4E4F; }
-  .accent-section * {
-    color: white; }
-  .accent-section .content-wrapper > * {
-    padding-left: 16px;
-    padding-right: 16px; }
+.secondary-section {
+  background-color: #24242c; }
+  .secondary-section * {
+    color: #e6efd0; }
+
+.tertiary-section {
+  background-color: #e6efd0; }
+  .tertiary-section * {
+    color: #2c493a; }
 
 .max-vh {
   height: 100vh;
@@ -135,3 +142,6 @@ footer {
   max-width: 960px;
   padding: 3vmax 3vw;
   height: 100%; }
+  .content-wrapper > * {
+    padding-left: 16px;
+    padding-right: 16px; }

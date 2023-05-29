@@ -4,10 +4,10 @@ placeholder: "youremail@thankyou.com",
 buttonText: "subscribe",
 theme: "custom",
 colors: {
-    primary: "#f2f2f2",
-    input: "#FFFFFF",
-    email: "#383838",
-    text: "#383838",
+    primary: "#2c493a",
+    input: "#2c493a",
+    email: "#e6efd0",
+    text: "#e6efd0",
 }
 };
 

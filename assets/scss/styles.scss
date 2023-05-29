@@ -7,14 +7,17 @@ $breakpoint-xl: 1200px;
 // Colors
   // Light mode
 
-$brand-color: #2C3639;
-$brand-color-text: white;
+$primary-color: #2c493a;
+$primary-color-text: #e6efd0;
 
-$accent-color: #3F4E4F;
-$accent-color-text: white;
+$secondary-color: #24242c;
+$secondary-color-text: white;
 
-$background-color: #FFFFFF;
-$background-text-color: #383838;
+$tertiary-color: #e6efd0;
+$tertiary-color-text: #2c493a;
+
+$background-color: #ffffff;
+$background-text-color: #000000;
 
 $surface-color: white;
 $surface-color-text: black;
@@ -35,10 +38,17 @@ body {
   flex-direction: column;
 }
 
-h2 {
+h2, li, p{
   font-family: $main-font;
-  font-weight: 400;
 }
+
+
+h2 {
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+
 
 // Header Styles
 header {
@@ -60,7 +70,7 @@ nav {
     width: 100%;
     text-decoration: none;
     color: $background-text-color;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif !important;
   }
 
   > * {
@@ -99,7 +109,7 @@ footer {
   padding-bottom: 1.5vw;
   margin-top: 16px;
 
-  > * {
+  * {
     font-family: 'Work Sans', sans-serif;
     color:#ffffff;
   }
@@ -141,45 +151,54 @@ footer {
       margin: 0;
       align-items: flex-start;
       height: min-content;
-      flex-wrap: wrap;
+      flex-wrap: wrap; // Sets the row height to fit the content
 
       > div {
         width: 100%;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(3, 1fr);
+        grid-template-rows: repeat(auto);
         grid-column-gap: 30px;
         height: fit-content;
+        overflow-wrap:break-word;
+
+        .grid-item {
+          overflow: hidden;
+          margin: 0.2rem;
+          margin-left: 0;
+        }
+        
+        }
       }
     }
   }
-}
 
-.brand-section {
-  background-color: $brand-color;
+.primary-section {
+  background-color: $primary-color;
   * {
-    color: $brand-color-text;
-  }
-
-  .content-wrapper > * {
-    padding-left: 16px;
-    padding-right: 16px;
+    color: $primary-color-text;
   }
 
 }
 
-.accent-section {
-  background-color: $accent-color;
+.secondary-section {
+  background-color: $secondary-color;
 
   * {
-    color: $brand-color-text;
+    color: $primary-color-text;
   }
 
-  .content-wrapper > * {
-    padding-left: 16px;
-    padding-right: 16px;
-  }
 }
+
+.tertiary-section {
+  background-color: $tertiary-color;
+
+  * {
+    color: $tertiary-color-text;
+  }
+
+}
+
 
 // Custom Styles
 .max-vh {
@@ -215,5 +234,12 @@ footer {
     max-width: 960px;
     padding: 3vmax 3vw;
     height: 100%;
-    
+
+     > * {
+      padding-left: 16px;
+      padding-right: 16px;
     }
+    
+}
+
+
