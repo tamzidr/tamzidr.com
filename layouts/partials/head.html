@@ -1,4 +1,0 @@
-{{ $style := resources.Get "scss/styles.scss" | resources.ExecuteAsTemplate "styles.scss" . | toCSS | fingerprint }}
-<link rel="stylesheet" href="{{ $style.Permalink }}">
-<script src="/js/index.js"></script>
-

@@ -1,0 +1,118 @@
+Folder PATH listing
+Volume serial number is 383A-2AA7
+C:.
+¦   .gitmodules
+¦   .hugo_build.lock
+¦   config.toml
+¦   folder_structure.txt
+¦   
++---archetypes
+¦       default.md
+¦       
++---assets
++---content
+¦   ¦   about-me.md
+¦   ¦   newsletter.md
+¦   ¦   youtube.md
+¦   ¦   _index.md
+¦   ¦   
+¦   +---blog
+¦           markdown-syntax.md
+¦           _index.md
+¦           
++---data
++---layouts
++---public
+¦   ¦   404.html
+¦   ¦   favicon.ico
+¦   ¦   index.html
+¦   ¦   index.xml
+¦   ¦   robots.txt
+¦   ¦   sitemap.xml
+¦   ¦   
+¦   +---about-me
+¦   ¦       index.html
+¦   ¦       
+¦   +---blog
+¦   ¦   ¦   index.html
+¦   ¦   ¦   index.xml
+¦   ¦   ¦   
+¦   ¦   +---markdown
+¦   ¦   ¦       index.html
+¦   ¦   ¦       index.xml
+¦   ¦   ¦       
+¦   ¦   +---syntax
+¦   ¦           index.html
+¦   ¦           index.xml
+¦   ¦           
+¦   +---images
+¦   ¦       favicon.png
+¦   ¦       share.png
+¦   ¦       
+¦   +---markdown-syntax-guide
+¦   ¦       index.html
+¦   ¦       
+¦   +---newsletter
+¦   ¦       index.html
+¦   ¦       
+¦   +---youtube
+¦           index.html
+¦           
++---resources
+¦   +---_gen
+¦       +---assets
+¦       +---images
++---static
+¦   ¦   favicon.ico
+¦   ¦   
+¦   +---images
+¦           favicon.png
+¦           share.png
+¦           
++---themes
+    +---hugo-bearblog
+        ¦   .gitignore
+        ¦   .jsbeautifyrc
+        ¦   LICENSE
+        ¦   package-lock.json
+        ¦   package.json
+        ¦   README.md
+        ¦   theme.toml
+        ¦   
+        +---.github
+        ¦   ¦   dependabot.yml
+        ¦   ¦   stale.yml
+        ¦   ¦   
+        ¦   +---workflows
+        ¦           ci.yml
+        ¦           
+        +---archetypes
+        ¦       blog.md
+        ¦       default.md
+        ¦       
+        +---images
+        ¦       screenshot-dark.png
+        ¦       screenshot.png
+        ¦       tn.png
+        ¦       
+        +---layouts
+            ¦   404.html
+            ¦   index.html
+            ¦   robots.txt
+            ¦   
+            +---partials
+            ¦       custom-substack-embed
+            ¦       custom_head.html
+            ¦       favicon.html
+            ¦       footer.html
+            ¦       header.html
+            ¦       nav.html
+            ¦       seo_tags.html
+            ¦       style.html
+            ¦       
+            +---_default
+                    baseof.html
+                    list.html
+                    newsletter.html
+                    single.html
+                    

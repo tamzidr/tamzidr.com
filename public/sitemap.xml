@@ -2,13 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/blog/</loc>
-    <lastmod>2023-05-29T00:00:00+00:00</lastmod>
+    <loc>tamzidr.com/</loc>
+    <lastmod>2020-01-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url><url>
-    <loc>/categories/</loc>
+    <loc>tamzidr.com/blog/</loc>
+    <lastmod>2020-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/</loc>
+    <loc>tamzidr.com/blog/markdown/</loc>
+    <lastmod>2020-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>tamzidr.com/markdown-syntax-guide/</loc>
+    <lastmod>2020-01-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>tamzidr.com/blog/syntax/</loc>
+    <lastmod>2020-01-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>tamzidr.com/about-me/</loc>
+  </url><url>
+    <loc>tamzidr.com/newsletter/</loc>
+  </url><url>
+    <loc>tamzidr.com/youtube/</loc>
   </url>
 </urlset>
