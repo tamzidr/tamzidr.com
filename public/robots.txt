@@ -1,2 +1,2 @@
 User-Agent: *
-Sitemap: tamzidr.com/sitemap.xml
+Sitemap: /sitemap.xml
