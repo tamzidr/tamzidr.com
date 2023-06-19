@@ -3,7 +3,7 @@
 baseURL = "/"
 
 # The name of this wonderful theme ;-).
-theme = 'hugo-bearblog'
+theme = 'tamzid-theme'
 
 # Basic metadata configuration for your blog.
 title = "Tamzid's ʕ •ᴥ•ʔゝ Blog"
