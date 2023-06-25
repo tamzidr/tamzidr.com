@@ -1,5 +1,4 @@
-{{ define "main" }}
-{{ if eq .Type "blog" }}{{ if not .Params.menu }}
+{{ define "main" }} {{ if eq .Type "blog" }}{{ if not .Params.menu }}
 <h1>{{ .Title }}</h1>
 <p>
   <i>
@@ -9,9 +8,25 @@
   </i>
 </p>
 {{ end }}{{ end }}
-<content>
-  {{ .Content }}
-</content>
+<content> {{ .Content }} </content>
+<script
+  src="https://giscus.app/client.js"
+  data-repo="omnetrix/tamzidr"
+  data-repo-id="R_kgDOJfV-ag"
+  data-category="General"
+  data-category-id="DIC_kwDOJfV-as4CXdIJ"
+  data-mapping="url"
+  data-strict="0"
+  data-reactions-enabled="1"
+  data-emit-metadata="0"
+  data-input-position="top"
+  data-theme="light"
+  data-lang="en"
+  crossorigin="anonymous"
+  async
+></script>
+<div class="giscus"></div>
+
 <p>
   {{ range (.GetTerms "tags") }}
   <a href="{{ .Permalink }}">#{{ .LinkTitle }}</a>
