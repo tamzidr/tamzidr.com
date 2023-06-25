@@ -6,18 +6,6 @@
     <description>Recent content in Blog on Tamzid&#39;s ʕ •ᴥ•ʔゝ Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <copyright>Copyright © 2023, Tamzid Rahman.</copyright>
-    <lastBuildDate>Fri, 03 Jan 2020 00:00:00 +0000</lastBuildDate><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Markdown Syntax Guide</title>
-      <link>/markdown-syntax-guide/</link>
-      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/markdown-syntax-guide/</guid>
-      <description>&lt;p&gt;For a quick cheatsheet, check out &lt;a href=&#34;https://simplemde.com/markdown-guide&#34;&gt;https://simplemde.com/markdown-guide&lt;/a&gt;.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
-    </item>
-    
+    <copyright>Copyright © 2023, Tamzid Rahman.</copyright><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
