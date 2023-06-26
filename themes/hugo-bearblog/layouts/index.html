@@ -8,26 +8,28 @@
   {{ else }}
   <div id="postContainer" style="display: flex;flex-direction:column;">
     {{ range .Site.RegularPages }}
-    <div style="display: flex;flex-direction:column" class="post">
-      <a href="{{ .Permalink }}" style="text-decoration: none;"><h2 style="margin-bottom: 0; color: #222222;">{{ .Title }}</h2></a>
-      <p>{{ .Date.Format (default "02 Jan, 2006" .Site.Params.dateFormat) }}</p>
-      {{ with .Params.cover }}
-      <img style="width: 75%;margin-bottom: 16px;"  src="{{ . | relURL }}" alt="Cover Image">
-      {{ end }}
-      {{ $content := .Content }}
-      {{ $contentPlain := .Content | plainify }}
-      {{ $words := split $contentPlain " " }}
-      {{ $limit := 1000 }}
-      {{ $excerpt := "" }}
-      {{ range $index, $word := $words }}
-        {{ $excerpt = printf "%s%s " $excerpt $word }}
-        {{ if gt (len $excerpt) $limit }}{{ break }}{{ end }}
-      {{ end }}
-      {{ $excerpt = trim $excerpt " \t\n" }}
-      {{ if gt (len $excerpt) $limit }}{{ $excerpt }}...{{ else }}{{ $excerpt }}{{ end }}
-      <a href="{{ .Permalink }}" class="readMore">Read More</a>
-      <div style="border-top: 1px solid #dddddd; margin-top: 16px; margin-bottom: 16px;"></div>
-    </div>
+    {{ if in .Permalink "/blog/" }}
+      <div style="display: flex;flex-direction:column" class="post">
+        <a href="{{ .Permalink }}" style="text-decoration: none;"><h2 style="margin-bottom: 0; color: #222222;">{{ .Title }}</h2></a>
+        <p>{{ .Date.Format (default "02 Jan, 2006" .Site.Params.dateFormat) }}</p>
+        {{ with .Params.cover }}
+        <img style="width: 75%;margin-bottom: 16px;"  src="{{ . | relURL }}" alt="Cover Image">
+        {{ end }}
+        {{ $content := .Content }}
+        {{ $contentPlain := .Content | plainify }}
+        {{ $words := split $contentPlain " " }}
+        {{ $limit := 1000 }}
+        {{ $excerpt := "" }}
+        {{ range $index, $word := $words }}
+          {{ $excerpt = printf "%s%s " $excerpt $word }}
+          {{ if gt (len $excerpt) $limit }}{{ break }}{{ end }}
+        {{ end }}
+        {{ $excerpt = trim $excerpt " \t\n" }}
+        {{ if gt (len $excerpt) $limit }}{{ $excerpt }}...{{ else }}{{ $excerpt }}{{ end }}
+        <a href="{{ .Permalink }}" class="readMore">Read More</a>
+        <div style="border-top: 1px solid #dddddd; margin-top: 16px; margin-bottom: 16px;"></div>
+      </div>
+    {{ end }}
     {{ else }}
     <p>No posts yet</p>
     {{ end }}
