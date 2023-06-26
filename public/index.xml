@@ -6,33 +6,36 @@
     <description>Recent content on Tamzid&#39;s ʕ •ᴥ•ʔゝ Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <copyright>Copyright © 2023, Tamzid Rahman.</copyright><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Copyright © 2023, Tamzid Rahman.</copyright>
+    <lastBuildDate>Sun, 25 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>About</title>
+      <title>A simple blog post</title>
+      <link>/blog/a-simple-blog-post/</link>
+      <pubDate>Sun, 25 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/a-simple-blog-post/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Privacy Policy</title>
+      <link>/privacy-policy/</link>
+      <pubDate>Sun, 25 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/privacy-policy/</guid>
+      <description>Privacy Policy Last updated: June 25, 2023
+This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.
+We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy.</description>
+    </item>
+    
+    <item>
+      <title>About me</title>
       <link>/about-me/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 24 Jun 2023 00:00:00 +0000</pubDate>
       
       <guid>/about-me/</guid>
       <description>Hi! I am Tamzid, a student based in the Netherlands. With me naturally enjoying thinking, I decided to create this site to connect with people who share the same curiosities as mine. Living life can become a mess and can result in circumstances you never expected. I want to share my insights on Psychology, Mental Health, Philosophy, and more so that we become stronger together.
 I grew up around computers and saw each time I booted up my PC as an adventure.</description>
-    </item>
-    
-    <item>
-      <title>Newsletter</title>
-      <link>/newsletter/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/newsletter/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Youtube</title>
-      <link>/youtube/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/youtube/</guid>
-      <description></description>
     </item>
     
   </channel>

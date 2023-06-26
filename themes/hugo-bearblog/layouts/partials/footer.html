@@ -11,14 +11,24 @@
   </p>
 
   <p>Join me on our journey towards a stronger self.</p>
-  <iframe
-    src="https://tamzidr.substack.com/embed"
-    width="100%"
-    height="fit-content"
-    style="border: 1px solid #ffffff; background: white"
-    frameborder="0"
-    scrolling="no"
-  ></iframe>
+  <div style="margin-top: 32px;margin-bottom: 32px;"  id="custom-substack-embed"></div>
+
+
+  <script>
+    window.CustomSubstackWidget = {
+      substackUrl: "tamzdr.substack.com",
+      placeholder: "example@gmail.com",
+      buttonText: "Subscribe",
+      theme: "custom",
+      colors: {
+        primary: "#FFFFFF",
+        input: "#000000",
+        email: "#FFFFFF",
+        text: "#000000",
+      }
+    };
+  </script>
+  <script src="https://substackapi.com/widget.js" async></script>
 </div>
 {{ if ne .Site.Params.hideMadeWithLine true }}© Tamzid Rahman 2023. All rights
 reserved.{{ end }}

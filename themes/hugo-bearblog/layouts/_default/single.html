@@ -11,23 +11,49 @@
     </p>
   {{ end }}
   <content>{{ .Content }}</content>
-  <script
-    src="https://giscus.app/client.js"
-    data-repo="omnetrix/tamzidr"
-    data-repo-id="R_kgDOJfV-ag"
-    data-category="General"
-    data-category-id="DIC_kwDOJfV-as4CXdIJ"
-    data-mapping="url"
-    data-strict="0"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="light"
-    data-lang="en"
-    crossorigin="anonymous"
-    async
-  ></script>
+
+  <script>
+    const prefersDarkMode = window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+    if (prefersDarkMode) {
+      const script = document.createElement("script");
+      script.src = "https://giscus.app/client.js";
+      script.async = true;
+      script.setAttribute("data-repo", "omnetrix/tamzidr");
+      script.setAttribute("data-repo-id", "R_kgDOJfV-ag");
+      script.setAttribute("data-category", "General");
+      script.setAttribute("data-category-id", "DIC_kwDOJfV-as4CXdIJ");
+      script.setAttribute("data-mapping", "url");
+      script.setAttribute("data-strict", "0");
+      script.setAttribute("data-reactions-enabled", "1");
+      script.setAttribute("data-emit-metadata", "0");
+      script.setAttribute("data-input-position", "top");
+      script.setAttribute("data-theme", "dark_dimmed");
+      script.setAttribute("data-lang", "en");
+      script.setAttribute("crossorigin", "anonymous");
+      document.body.appendChild(script);
+    } else {
+      const script = document.createElement("script");
+      script.src = "https://giscus.app/client.js";
+      script.async = true;
+      script.setAttribute("data-repo", "omnetrix/tamzidr");
+      script.setAttribute("data-repo-id", "R_kgDOJfV-ag");
+      script.setAttribute("data-category", "General");
+      script.setAttribute("data-category-id", "DIC_kwDOJfV-as4CXdIJ");
+      script.setAttribute("data-mapping", "url");
+      script.setAttribute("data-strict", "0");
+      script.setAttribute("data-reactions-enabled", "1");
+      script.setAttribute("data-emit-metadata", "0");
+      script.setAttribute("data-input-position", "top");
+      script.setAttribute("data-theme", "light");
+      script.setAttribute("data-lang", "en");
+      script.setAttribute("crossorigin", "anonymous");
+      document.body.appendChild(script);
+    }
+  </script>
+
   <div class="giscus"></div>
+
   <p>
     {{ range (.GetTerms "tags") }}
       <a href="{{ .Permalink }}">#{{ .LinkTitle }}</a>
