@@ -1,8 +1,8 @@
-+++
-title = "About me"
-cover = "/images/meinthesnow.jpeg"
-date = "2023-06-24"
-+++
+---
+title: About me
+cover: /images/meinthesnow.jpeg
+date: 2023-06-24
+---
 
 Hi! I am Tamzid, a student based in the Netherlands. With me naturally enjoying thinking, I decided to create this site to connect with people who share the same curiosities as mine. Living life can become a mess and can result in circumstances you never expected. I want to share my insights on Psychology, Mental Health, Philosophy, and more so that we become stronger together.
 

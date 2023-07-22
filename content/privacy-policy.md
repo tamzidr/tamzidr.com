@@ -1,7 +1,7 @@
-+++
-title = "Privacy Policy"
-date = "2023-06-25"
-+++
+---
+title: Privacy Policy
+date: 2023-06-25
+---
 
 Privacy Policy
 ==============
