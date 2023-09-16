@@ -1,0 +1,17 @@
+<article class="max-w-full prose dark:prose-invert">
+	{{ with .Title }}
+	<header>
+		<h1>{{ . | emojify }}</h1>
+	</header>
+	{{ end }}
+	<section>{{ .Content | emojify }}</section>
+</article>
+
+{{ $recentArticles := 5 }} {{ $recentArticles =
+.Site.Params.homepage.showRecentItems }}
+
+<section class="w-full mt-12 grid gap-4 sm:grid-cols-2 md:grid-cols-2">
+	{{ range first $recentArticles (.Paginate (where .Site.RegularPages "Type"
+	"in" .Site.Params.mainSections)).Pages }} {{ partial "card.html" . }} {{ end
+	}}
+</section>
