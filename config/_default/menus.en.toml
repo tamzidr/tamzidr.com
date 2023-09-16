@@ -14,11 +14,22 @@
   name = "Blog"
   pageRef = "posts"
   weight = 10
+# url = "https://tamzidr.com/post"
+
+[[main]]
+  name = "About me"
+  pageRef = "aboutme"
+  weight = 20
 
 [[main]]
   name = "Github"
   url = "https://github.com/tamzidr"
-  weight = 20
+  weight = 30
+
+[[main]]
+  name = "Contact"
+  url = "mailto:tamzidr26@gmail.com"
+  weight = 40
 
 #[[main]]
 #  name = "example sub-menu 1"
