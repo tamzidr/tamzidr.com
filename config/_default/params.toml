@@ -114,13 +114,14 @@ disableImageOptimization = true
   cardViewScreenWidth = false
 
 [firebase]
-  # apiKey = "XXXXXX"
-  # authDomain = "XXXXXX"
-  # projectId = "XXXXXX"
-  # storageBucket = "XXXXXX"
-  # messagingSenderId = "XXXXXX"
-  # appId = "XXXXXX"
-  # measurementId = "XXXXXX"
+  # apiKey: "AIzaSyBq9ivx-NJfU-agMwM9KTFARD6RLE36DYc",
+  # authDomain: "tamzid-s-website.firebaseapp.com",
+  # projectId: "tamzid-s-website",
+  # storageBucket: "tamzid-s-website.appspot.com",
+  # messagingSenderId: "119733119383",
+  # appId: "1:119733119383:web:3e7b9f1fdbda2ec2d5fcd2",
+  # measurementId: "G-K3NQP50CTZ"
+
 
 [fathomAnalytics]
   # site = "ABC12345"
