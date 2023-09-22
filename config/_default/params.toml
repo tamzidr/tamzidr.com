@@ -15,7 +15,7 @@ enableCodeCopy = true
 # mainSections = ["section1", "section2"]
 # robots = ""
 
-disableImageOptimization = true
+disableImageOptimization = false
 
 # defaultBackgroundImage = "IMAGE.jpg" # used as default for background images 
 # defaultFeaturedImage = "IMAGE.jpg" # used as default for featured images in all articles
@@ -49,7 +49,7 @@ disableImageOptimization = true
   showDate = true
   showViews = false
   showLikes = false
-  showDateUpdated = false
+  showDateUpdated = true
   showAuthor = false
   showHero = false
   heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
