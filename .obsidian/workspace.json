@@ -13,9 +13,29 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/Bulding a todolist application with react as a beginner/_index.md",
+                "file": "content/posts/Bulding a todolist application with react as a beginner/index.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "5f6e51e43e7951f7",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "static/images/Screenshot 2023-09-18 at 21.33.37.png"
+              }
+            }
+          },
+          {
+            "id": "72b877c663e8a5b0",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "static/images/Namelix.png"
               }
             }
           }
@@ -85,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/Bulding a todolist application with react as a beginner/_index.md",
+                "file": "content/posts/Bulding a todolist application with react as a beginner/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/Bulding a todolist application with react as a beginner/_index.md",
+                "file": "content/posts/Bulding a todolist application with react as a beginner/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/Bulding a todolist application with react as a beginner/_index.md"
+                "file": "content/posts/Bulding a todolist application with react as a beginner/index.md"
               }
             }
           }
@@ -149,15 +169,21 @@
   },
   "active": "024df4ad4bd0c0b1",
   "lastOpenFiles": [
+    "static/images/Screenshot 2023-09-18 at 21.33.37.png",
+    "content/posts/Bulding a todolist application with react as a beginner/index.md",
+    "content/posts/markdown-syntax/index.md",
+    "content/posts/markdown-syntax/featured.jpg",
     "content/posts/How I use obsidian to make posts in hugo/_index.md",
-    "content/posts/Bulding a todolist application with react as a beginner/_index.md",
+    "content/posts/rich-content.md",
+    "content/posts/placeholder-text.md",
+    "content/posts/emoji-support.md",
     "content/posts/Mindfulness In Plain English A Summary/_index.md",
+    "static/images/Namelix.png",
+    "content/posts/Bulding a todolist application with react as a beginner/_index.md",
     "static/images/Screenshot 2023-09-21 at 21.44.55.png",
     "static/images/Screenshot 2023-09-20 at 09.44.06.png",
     "content/posts/How I use obsidian to make posts in hugo",
     "Screenshot 2023-09-19 at 10.42.35.png",
-    "content/posts/placeholder-text.md",
-    "static/images/Screenshot 2023-09-18 at 21.33.37.png",
     "static/images",
     "static/images/Screenshot 2023-09-18 at 21.35.26.png",
     "content/aboutme.md",
