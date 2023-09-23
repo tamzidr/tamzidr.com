@@ -21,8 +21,6 @@ This is what I brainstormed so far in Figma and Obsidian (canvas) :
 ![](https://i.imgur.com/dCMjZ6H.png)
 ![](https://i.imgur.com/D8bOYio.png)
 
-![](https://i.imgur.com/y2WVtTb.png)
-
 Please note that this is just a simple overview of how I want it to function for now, it may very well be that the complexity of the project will increase as it progresses.
 
 21-09-2023

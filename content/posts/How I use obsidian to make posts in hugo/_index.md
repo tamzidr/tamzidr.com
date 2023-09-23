@@ -20,4 +20,5 @@ That's it! You've created a simple Hugo site, customised it, and can publish it 
 
 This is self explanatory, you can simply download obsidian from their official website using your respective platform. Here is a link https://obsidian.md/download ;)
 ## Step 3: Open your site as an obsidian vault
- 
+
+![](https://i.imgur.com/y2WVtTb.png)
