@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ae39e1dce2542932",
+        "id": "251f4f9cd90d7a7c",
         "type": "tabs",
         "children": [
           {
-            "id": "024df4ad4bd0c0b1",
+            "id": "b213fbfcab7aed24",
             "type": "leaf",
             "state": {
               "type": "image",
               "state": {
-                "file": "content/posts/Bulding a todolist application with react as a beginner/featured.jpg"
+                "file": "Screenshot 2023-09-19 at 10.42.35.png"
               }
             }
           }
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/Bulding a todolist application with react as a beginner/featured.jpg",
+                "file": "Screenshot 2023-09-19 at 10.42.35.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/Bulding a todolist application with react as a beginner/featured.jpg",
+                "file": "Screenshot 2023-09-19 at 10.42.35.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/Bulding a todolist application with react as a beginner/featured.jpg"
+                "file": "Screenshot 2023-09-19 at 10.42.35.png"
               }
             }
           }
@@ -136,36 +136,40 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "hide-folders:Show hidden folders": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "hide-folders:Show hidden folders": false
     }
   },
-  "active": "024df4ad4bd0c0b1",
+  "active": "aa7dc21218e5afda",
   "lastOpenFiles": [
-    "content/posts/Bulding a todolist application with react as a beginner/index.md",
+    "content/posts/archives/math-typesetting.md",
+    "content/posts/archives/placeholder-text.md",
+    "content/posts/archives/rich-content.md",
+    "content/_index.md",
+    "content/posts/archives/aboutme.md",
+    "content/posts/archives/_index.md",
+    "content/posts/archives/Mindfulness In Plain English A Summary/_index.md",
+    "content/posts/archives/posts",
+    "content/posts/archives",
+    "content/posts/archives/emoji-support.md",
+    "content/posts/archives/How I use obsidian to make posts in hugo/_index.md",
+    "Screenshot 2023-09-19 at 10.42.35.png",
+    "content/posts/archives/Bulding a todolist application with react as a beginner/featured.jpg",
+    "content/posts/archives/Bulding a todolist application with react as a beginner/index.md",
     "static/images/Namelix.png",
-    "content/posts/Bulding a todolist application with react as a beginner/featured.jpg",
-    "content/posts/markdown-syntax/featured.jpg",
-    "content/posts/How I use obsidian to make posts in hugo/_index.md",
+    "content/posts/archives/markdown-syntax/featured.jpg",
     "static/images/Screenshot 2023-09-18 at 21.33.37.png",
-    "content/posts/markdown-syntax/index.md",
-    "content/posts/rich-content.md",
-    "content/posts/placeholder-text.md",
-    "content/posts/emoji-support.md",
-    "content/posts/Mindfulness In Plain English A Summary/_index.md",
+    "content/posts/archives/markdown-syntax/index.md",
     "content/posts/Bulding a todolist application with react as a beginner/_index.md",
     "static/images/Screenshot 2023-09-21 at 21.44.55.png",
     "static/images/Screenshot 2023-09-20 at 09.44.06.png",
-    "content/posts/How I use obsidian to make posts in hugo",
-    "Screenshot 2023-09-19 at 10.42.35.png",
+    "content/posts/archives/How I use obsidian to make posts in hugo",
     "static/images",
-    "static/images/Screenshot 2023-09-18 at 21.35.26.png",
-    "content/aboutme.md",
-    "content/_index.md"
+    "static/images/Screenshot 2023-09-18 at 21.35.26.png"
   ]
 }
