@@ -26,7 +26,7 @@ disableTextInHeader = false
 # smartTOCHideUnfocusedChildren = true
 
 [header]
-  layout = "porfile" # valid options: basic, fixed, fixed-fill, fixed-gradient, fixed-fill-blur
+  layout = "basic" # valid options: basic, fixed, fixed-fill, fixed-gradient, fixed-fill-blur
 
 [footer]
   showMenu = true
@@ -51,8 +51,8 @@ disableTextInHeader = false
   showViews = false
   showLikes = false
   showDateOnlyInArticle = false
-  showDateUpdated = false
-  showAuthor = true
+  showDateUpdated = true
+  showAuthor = false
   showHero = false
   # heroStyle = "basic" # valid options: basic, big, background, thumbAndBackground
   layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
@@ -73,7 +73,7 @@ disableTextInHeader = false
   showTaxonomies = false
   showAuthorsBadges = false
   showWordCount = true
-  # sharingLinks = [ "linkedin", "twitter", "reddit", "pinterest", "facebook", "email", "whatsapp", "telegram"]
+  sharingLinks = [ "linkedin", "twitter", "reddit", "pinterest", "facebook", "email", "whatsapp", "telegram"]
   showZenMode = false
 
 [list]

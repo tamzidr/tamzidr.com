@@ -1,5 +1,5 @@
 ---
-title: "new-article"
+title: "Syncing to GitHub explained"
 date: 2024-03-30
 draft: false
 description: "a description"
