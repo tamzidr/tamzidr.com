@@ -1,4 +1,6 @@
 [
   "open-gate",
-  "terminal"
+  "terminal",
+  "open-vscode",
+  "cmdr"
 ]

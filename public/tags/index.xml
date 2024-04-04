@@ -9,21 +9,11 @@
     <copyright>© 2024 Tamzid Rahman</copyright>
     <lastBuildDate>Sat, 30 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Example</title>
-      <link>http://localhost:1313/tags/example/</link>
+      <title>Git</title>
+      <link>http://localhost:1313/tags/git/</link>
       <pubDate>Sat, 30 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/example/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Tag</title>
-      <link>http://localhost:1313/tags/tag/</link>
-      <pubDate>Sat, 30 Mar 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/tag/</guid>
+      <guid>http://localhost:1313/tags/git/</guid>
       <description></description>
       
     </item>

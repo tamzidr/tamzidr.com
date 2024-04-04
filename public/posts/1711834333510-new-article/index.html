@@ -1,86 +1,88 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr" class="scroll-smooth" data-default-appearance="dark"
+<html lang="en" dir="ltr" class="scroll-smooth" data-default-appearance="light"
   data-auto-appearance="true"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-  <meta charset="utf-8" />
-  
-  <meta http-equiv="content-language" content="en" />
-  
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  
-  <title>Syncing to GitHub explained &middot; tamzidr.com</title>
-  <meta name="title" content="Syncing to GitHub explained &middot; tamzidr.com" />
-  
-  <meta name="description" content="a description" />
-  <meta name="keywords" content="example, tag, " />
-  
-  
-  <link rel="canonical" href="http://localhost:1313/posts/1711834333510-new-article/" />
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.ca97dc2dbe733d645b96ff08c3fb23dbf91348f27759a51151e4735e811d281a0d2ad180ea95cd2ff511b632598700585ef87884285b81658c22ce82ca30f9c4.css"
-    integrity="sha512-ypfcLb5zPWRblv8Iw/sj2/kTSPJ3WaURUeRzXoEdKBoNKtGA6pXNL/URtjJZhwBYXvh4hChbgWWMIs6CyjD5xA==" />
-  
-  
-  <script type="text/javascript" src="/js/appearance.min.516a16745bea5a9bd011138d254cc0fd3973cd55ce6e15f3dec763e7c7c2c7448f8fe7b54cca811cb821b0c7e12cd161caace1dd794ac3d34d40937cbcc9ee12.js"
-    integrity="sha512-UWoWdFvqWpvQERONJUzA/TlzzVXObhXz3sdj58fCx0SPj&#43;e1TMqBHLghsMfhLNFhyqzh3XlKw9NNQJN8vMnuEg=="></script>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <script defer type="text/javascript" id="script-bundle" src="/js/main.bundle.min.b36dda9ec4ec11e967fd341e7d57b8c484ac7a39f8f329f7bcf7ce4812569de8607db866a086d4789956ac0b74967e251c9a566d94d469dd28b8787fed4f46f5.js"
-    integrity="sha512-s23ansTsEeln/TQefVe4xISsejn48yn3vPfOSBJWnehgfbhmoIbUeJlWrAt0ln4lHJpWbZTUad0ouHh/7U9G9Q==" data-copy="" data-copied=""></script>
-  
-  
-  <script src="/js/zoom.min.js"></script>
-  
-  
-  
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-  <link rel="manifest" href="/site.webmanifest" />
-  
-  
-  
-  
-  
-  
-  
-  <meta property="og:title" content="Syncing to GitHub explained" />
+    <meta charset="utf-8" />
+    
+    <meta http-equiv="content-language" content="en" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    
+    <title>How to sync cloned GitHub repositories &middot; tamzidr.com</title>
+    <meta name="title" content="How to sync cloned GitHub repositories &middot; tamzidr.com" />
+    
+    <meta name="description" content="a description" />
+    <meta name="keywords" content="git, " />
+    
+    
+    <link rel="canonical" href="http://localhost:1313/posts/1711834333510-new-article/" />
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.76835e72013e0ea3c66176c88c44ee6c3215bf25156a3af8dca2b5528c2c99e5ba198badc1d5e1c3a042cc6142aa891a086bd110d3206f085916ce73a6e72061.css"
+      integrity="sha512-doNecgE&#43;DqPGYXbIjETubDIVvyUVajr43KK1UowsmeW6GYutwdXhw6BCzGFCqokaCGvRENMgbwhZFs5zpucgYQ==" />
+    
+    
+    <script type="text/javascript" src="/js/appearance.min.516a16745bea5a9bd011138d254cc0fd3973cd55ce6e15f3dec763e7c7c2c7448f8fe7b54cca811cb821b0c7e12cd161caace1dd794ac3d34d40937cbcc9ee12.js"
+      integrity="sha512-UWoWdFvqWpvQERONJUzA/TlzzVXObhXz3sdj58fCx0SPj&#43;e1TMqBHLghsMfhLNFhyqzh3XlKw9NNQJN8vMnuEg=="></script>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script defer type="text/javascript" id="script-bundle" src="/js/main.bundle.min.b36dda9ec4ec11e967fd341e7d57b8c484ac7a39f8f329f7bcf7ce4812569de8607db866a086d4789956ac0b74967e251c9a566d94d469dd28b8787fed4f46f5.js"
+      integrity="sha512-s23ansTsEeln/TQefVe4xISsejn48yn3vPfOSBJWnehgfbhmoIbUeJlWrAt0ln4lHJpWbZTUad0ouHh/7U9G9Q==" data-copy="" data-copied=""></script>
+    
+    
+    <script src="/js/zoom.min.js"></script>
+    
+    
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    
+    
+    
+    
+    
+    
+    
+    <meta property="og:title" content="How to sync cloned GitHub repositories" />
 <meta property="og:description" content="a description" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://localhost:1313/posts/1711834333510-new-article/" /><meta property="og:image" content="http://localhost:1313/posts/1711834333510-new-article/featured.webp" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2024-03-30T00:00:00+00:00" />
 <meta property="article:modified_time" content="2024-03-30T00:00:00+00:00" />
 
-  <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="http://localhost:1313/posts/1711834333510-new-article/featured.webp" /><meta name="twitter:title" content="Syncing to GitHub explained"/>
+    <meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="http://localhost:1313/posts/1711834333510-new-article/featured.webp" /><meta name="twitter:title" content="How to sync cloned GitHub repositories"/>
 <meta name="twitter:description" content="a description"/>
 
-  
-  <script type="application/ld+json">
+    
+    <script type="application/ld+json">
   [{
     "@context": "https://schema.org",
     "@type": "Article",
     "articleSection": "Posts",
-    "name": "Syncing to GitHub explained",
-    "headline": "Syncing to GitHub explained",
+    "name": "How to sync cloned GitHub repositories",
+    "headline": "How to sync cloned GitHub repositories",
     "description": "a description",
-    "abstract": "an example to get you started",
+    "abstract": "So, you\u0026rsquo;ve cloned a repository from GitHub to your local machine, and now you want to make changes and sync them back to the remote repository?",
     "inLanguage": "en",
     "url" : "http:\/\/localhost:1313\/posts\/1711834333510-new-article\/",
     "author" : {
@@ -93,25 +95,25 @@
     
     "dateModified": "2024-03-30T00:00:00\u002b00:00",
     
-    "keywords": ["example","tag"],
+    "keywords": ["git"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "41"
+    "wordCount": "236"
   }]
   </script>
 
 
-  
-  
-  <meta name="author" content="Tamzid Rahman" />
-  
-  
-  
-  <link href="https://github.com/tamzidr" rel="me" />
-  
-  
-  
-  
+    
+    
+    <meta name="author" content="Tamzid Rahman" />
+    
+    
+    
+    <link href="https://github.com/tamzidr" rel="me" />
+    
+    
+    
+    
 
 <script src="/lib/jquery/jquery.slim.min.js" integrity=""></script>
 
@@ -135,17 +137,24 @@
 
 
 
-  
-  
+    
+    
 
 
-  
-  
-  <meta name="theme-color"/>
-  
-  
-</head>
-<body
+    
+    
+    <meta name="theme-color"/>
+    
+    
+
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+  </head>
+  <body
   class="flex flex-col h-screen px-6 m-auto text-lg leading-7 max-w-7xl bg-neutral text-neutral-900 dark:bg-neutral-800 dark:text-neutral sm:px-14 md:px-24 lg:px-32">
   <div id="the-top" class="absolute flex self-center">
     <a class="px-3 py-1 text-sm -translate-y-8 rounded-b-lg bg-primary-200 focus:translate-y-0 dark:bg-neutral-600"
@@ -154,7 +163,7 @@
   </div>
   
   
-  <div style="padding-left:0;padding-right:0;padding-top:2px;padding-bottom:3px"
+  <div style="padding-left:0;padding-right:0;padding-top:2px;padding-bottom:3px;margin-bottom: 20%;"
     class="main-menu flex items-center justify-between px-4 py-6 sm:px-6 md:justify-start space-x-3">
     
     <div class="flex flex-1 items-center justify-between">
@@ -374,8 +383,45 @@
 
   <header id="single_header" class="mt-5 max-w-prose">
     
+    <ol class="text-sm text-neutral-500 dark:text-neutral-400 print:hidden">
+  
+  
+    
+  
+    
+  
+  <li class="inline hidden">
+    <a
+      class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
+      href="/"
+      >tamzidr.com</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+  
+  <li class="inline ">
+    <a
+      class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
+      href="/posts/"
+      >Posts</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+  
+  <li class="inline hidden">
+    <a
+      class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
+      href="/posts/1711834333510-new-article/"
+      >How to sync cloned GitHub repositories</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+</ol>
+
+
+    
     <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-      Syncing to GitHub explained
+      How to sync cloned GitHub repositories
     </h1>
     <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
       
@@ -420,7 +466,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2024-03-30 00:00:00 &#43;0000 UTC">30 March 2024</time><span class="px-2 text-primary-500">&middot;</span><span>41 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
+  <time datetime="2024-03-30 00:00:00 &#43;0000 UTC">30 March 2024</time><span class="px-2 text-primary-500">&middot;</span><span>236 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span>
   
 
   
@@ -461,59 +507,32 @@
 
 
         <div class="article-content max-w-prose mb-20">
-          <p>an example to get you started</p>
-
-
-<h1 class="relative group">This is a heading 
-    <div id="this-is-a-heading" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#this-is-a-heading" aria-label="Anchor">#</a>
-    </span>        
-    
-</h1>
-
-
-<h2 class="relative group">This is a subheading 
-    <div id="this-is-a-subheading" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#this-is-a-subheading" aria-label="Anchor">#</a>
-    </span>        
-    
-</h2>
-
-
-<h3 class="relative group">This is a subsubheading 
-    <div id="this-is-a-subsubheading" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#this-is-a-subsubheading" aria-label="Anchor">#</a>
-    </span>        
-    
-</h3>
-
-
-<h4 class="relative group">This is a subsubsubheading 
-    <div id="this-is-a-subsubsubheading" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#this-is-a-subsubsubheading" aria-label="Anchor">#</a>
-    </span>        
-    
-</h4>
-<p>This is a paragraph with <strong>bold</strong> and <em>italic</em> text.
-Check more at <a href="https://blowfish.page/"   target="_blank">
-    Blowfish documentation</a>
-undefined</p>
+          <p>So, you&rsquo;ve cloned a repository from GitHub to your local machine, and now you want to make changes and sync them back to the remote repository? Here&rsquo;s a quick guide on how to do just that.</p>
+<ol>
+<li>
+<p><strong>Navigate to the Local Repository</strong>: Open your terminal or command prompt and navigate to the directory where you&rsquo;ve cloned the repository using the <code>cd</code> command. For example:</p>
+<pre tabindex="0"><code>cd path/to/your/cloned/repository
+</code></pre></li>
+<li>
+<p><strong>Make Changes</strong>: Now that you&rsquo;re in the repository directory, make the desired changes to the files using your preferred text editor or IDE.</p>
+</li>
+<li>
+<p><strong>Add Changes</strong>: After making your changes, you need to stage them for commit using the <code>git add</code> command. You can add all changes at once by running:</p>
+<pre tabindex="0"><code>git add .
+</code></pre><p>This command adds all modified and new files to the staging area.</p>
+</li>
+<li>
+<p><strong>Commit Changes</strong>: Once your changes are staged, commit them to the local repository using the <code>git commit</code> command with a descriptive message:</p>
+<pre tabindex="0"><code>git commit -m &#34;Your descriptive commit message here&#34;
+</code></pre><p>Replace <code>&quot;Your descriptive commit message here&quot;</code> with a brief but informative description of the changes you&rsquo;ve made.</p>
+</li>
+<li>
+<p><strong>Sync Changes to GitHub</strong>: Finally, you need to push your committed changes to the remote GitHub repository using the <code>git push</code> command:</p>
+<pre tabindex="0"><code>git push origin master
+</code></pre><p>This command pushes your changes from the local <code>master</code> branch to the <code>origin</code> remote repository, which is typically GitHub.</p>
+</li>
+</ol>
+<p>And that&rsquo;s it! Your changes should now be synced to the remote GitHub repository.</p>
 
         </div>
                 
@@ -526,7 +545,7 @@ undefined</p>
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://localhost:1313/posts/1711834333510-new-article/&amp;title=Syncing%20to%20GitHub%20explained"
+      href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://localhost:1313/posts/1711834333510-new-article/&amp;title=How%20to%20sync%20cloned%20GitHub%20repositories"
       title="Share on LinkedIn"
       aria-label="Share on LinkedIn"
       >
@@ -545,7 +564,7 @@ undefined</p>
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://twitter.com/intent/tweet/?url=http://localhost:1313/posts/1711834333510-new-article/&amp;text=Syncing%20to%20GitHub%20explained"
+      href="https://twitter.com/intent/tweet/?url=http://localhost:1313/posts/1711834333510-new-article/&amp;text=How%20to%20sync%20cloned%20GitHub%20repositories"
       title="Tweet on Twitter"
       aria-label="Tweet on Twitter"
       >
@@ -563,7 +582,7 @@ undefined</p>
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://reddit.com/submit/?url=http://localhost:1313/posts/1711834333510-new-article/&amp;resubmit=true&amp;title=Syncing%20to%20GitHub%20explained"
+      href="https://reddit.com/submit/?url=http://localhost:1313/posts/1711834333510-new-article/&amp;resubmit=true&amp;title=How%20to%20sync%20cloned%20GitHub%20repositories"
       title="Submit to Reddit"
       aria-label="Submit to Reddit"
       >
@@ -582,7 +601,7 @@ undefined</p>
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://pinterest.com/pin/create/bookmarklet/?url=http://localhost:1313/posts/1711834333510-new-article/&amp;description=Syncing%20to%20GitHub%20explained"
+      href="https://pinterest.com/pin/create/bookmarklet/?url=http://localhost:1313/posts/1711834333510-new-article/&amp;description=How%20to%20sync%20cloned%20GitHub%20repositories"
       title="Pin on Pinterest"
       aria-label="Pin on Pinterest"
       >
@@ -601,7 +620,7 @@ undefined</p>
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:1313/posts/1711834333510-new-article/&amp;quote=Syncing%20to%20GitHub%20explained"
+      href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:1313/posts/1711834333510-new-article/&amp;quote=How%20to%20sync%20cloned%20GitHub%20repositories"
       title="Share on Facebook"
       aria-label="Share on Facebook"
       >
@@ -620,7 +639,7 @@ undefined</p>
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="mailto:?body=http://localhost:1313/posts/1711834333510-new-article/&amp;subject=Syncing%20to%20GitHub%20explained"
+      href="mailto:?body=http://localhost:1313/posts/1711834333510-new-article/&amp;subject=How%20to%20sync%20cloned%20GitHub%20repositories"
       title="Send via email"
       aria-label="Send via email"
       >
@@ -639,7 +658,7 @@ undefined</p>
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://api.whatsapp.com/send?text=http://localhost:1313/posts/1711834333510-new-article/&amp;resubmit=true&amp;title=Syncing%20to%20GitHub%20explained"
+      href="https://api.whatsapp.com/send?text=http://localhost:1313/posts/1711834333510-new-article/&amp;resubmit=true&amp;title=How%20to%20sync%20cloned%20GitHub%20repositories"
       title=""
       aria-label=""
       >
@@ -658,7 +677,7 @@ undefined</p>
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://t.me/share/url?url=http://localhost:1313/posts/1711834333510-new-article/&amp;resubmit=true&amp;title=Syncing%20to%20GitHub%20explained"
+      href="https://t.me/share/url?url=http://localhost:1313/posts/1711834333510-new-article/&amp;resubmit=true&amp;title=How%20to%20sync%20cloned%20GitHub%20repositories"
       title=""
       aria-label=""
       >
@@ -676,7 +695,10 @@ undefined</p>
   </section>
 
 
-          
+        
+
+
+  
       </div>
      
       
