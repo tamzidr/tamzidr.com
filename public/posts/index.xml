@@ -9,12 +9,12 @@
     <copyright>© 2024 Tamzid Rahman</copyright>
     <lastBuildDate>Sat, 30 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Syncing to GitHub explained</title>
+      <title>How to sync cloned GitHub repositories</title>
       <link>http://localhost:1313/posts/1711834333510-new-article/</link>
       <pubDate>Sat, 30 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/posts/1711834333510-new-article/</guid>
-      <description></description>
+      <description>So, you&amp;rsquo;ve cloned a repository from GitHub to your local machine, and now you want to make changes and sync them back to the remote repository?</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/1711834333510-new-article/featured.webp" />
     </item>
     

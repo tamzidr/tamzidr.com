@@ -2,7 +2,7 @@
 title: "How to sync cloned GitHub repositories"
 date: 2024-03-30
 draft: false
-description: "a description"
+description: "Learn the essential steps to sync your local repository with GitHub after cloning it. From making changes to committing them and pushing to GitHub, this guide simplifies the process for beginners. Master the basics and effortlessly manage your GitHub projects with ease."
 tags: ["git"]
 ---
 
@@ -29,8 +29,8 @@ So, you've cloned a repository from GitHub to your local machine, and now you wa
 
 5. **Sync Changes to GitHub**: Finally, you need to push your committed changes to the remote GitHub repository using the `git push` command:
    ```
-   git push origin master
+   git push origin main
    ```
-   This command pushes your changes from the local `master` branch to the `origin` remote repository, which is typically GitHub.
+   This command pushes your changes from the local `main` branch to the `origin` remote repository, which is typically GitHub.
 
 And that's it! Your changes should now be synced to the remote GitHub repository.
